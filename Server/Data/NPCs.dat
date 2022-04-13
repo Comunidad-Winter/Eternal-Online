@@ -1,0 +1,99 @@
+'NPCs.dat - Eternal Online v1.0
+
+##############################################
+############TIPOS NPC (NpcType)###############
+##############################################
+
+0 ====== NPCS COMUNES
+1 ====== PUEDE RESUCITAR
+2 ====== GUARDIA
+3 ====== PUEDE ENTRENAR
+4 ====== BANQUEROS
+5 ====== NOBLES
+6 ====== DRAGONES
+7 ====== TIMBEROS
+8 ====== GUARDIAS DEL CAOS
+9 ====== PUEDE RESUCITAR SOLAMENTE A LOS NEWBIES
+
+##############################################
+################ORDEN EN DAT##################
+##############################################
+
+NPCS DE MAPEO (SACERDOTE, VENDEDORES, BANCO, ETC)
+NPCS HOSTILES
+NPCS NO HOSTILES
+
+[INIT]
+NumNPCs=4
+
+[NPC1]
+Name=Sacerdote
+NpcType=1
+Desc=Hola hijo mio, soy el sacerdote de estas tierras. Si tienes alguna consulta clickeame.
+Head=3
+Heading=3
+Body=152
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+BackUp=0
+
+[NPC2]
+Name=Banquero
+NpcType=4
+Desc=Hola, bienvenido a la cadena de finanzas Goliath. Somos la cadena más grande del mundo, contamos con bancos en las ciudades más importantes.
+Head=22
+Heading=3
+Body=254
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+BackUp=0
+
+[NPC3]
+Name=Timbero
+NpcType=7
+Desc=Saludos! Si deseas apostar oro escribe /APOSTAR (CANTIDAD)
+Head=5
+Heading=3
+Body=188
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+BackUp=0
+
+[NPC4]
+Name=Comerciante
+ShowName=1
+FaccionColor=0
+NpcType=0
+Desc=Hola, soy el comerciante mas grande de todas estas tierras, tengo cosas que quizas te interesen.
+Head=9
+Heading=3
+Body=201
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Comercia=1
+TipoItems=11
+NROITEMS=6
+Obj1=282-1000 'Poción Roja
+Obj2=283-1000 'Poción Azul
+Obj3=284-1000 'Poción Amarilla
+Obj4=285-1000 'Poción Verde
+Obj5=286-1000 'Poción Violeta
+BackUp=1

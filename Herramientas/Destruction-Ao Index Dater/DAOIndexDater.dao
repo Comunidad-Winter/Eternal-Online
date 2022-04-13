@@ -1,0 +1,14 @@
+[Rutas]
+Graficos=D:\Proyectos\Eternal Online\Herramientas\Graphics descomprimidos
+SaveGraficos=D:\Proyectos\Eternal Online\Herramientas\Graphics descomprimidos
+Inits=D:\Proyectos\Eternal Online\Cliente\Resources\Init
+Dats=D:\Proyectos\Eternal Online\server\Dat
+SaveInit=D:\Proyectos\Eternal Online\Cliente\Resources\Init
+SaveDat=D:\Proyectos\Eternal Online\server\Dat
+WavPath=D:\Proyectos\Eternal Online\Cliente\Resources\Sounds\WAV
+
+[Constantes]
+TileHeight=32
+TileWidth=32
+[Version]
+V=1

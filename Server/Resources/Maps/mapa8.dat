@@ -1,0 +1,26 @@
+[mapa]
+Name=Puerto de Klim
+MusicNum=0
+MagiaSinefecto=0
+InviSinEfecto=0
+ResuSinEfecto=0
+NoEncriptarMP=0
+Terreno=NIEVE
+Zona=CIUDAD
+Restringir=No
+BackUp= 0
+ELVMIN=0
+ELVMAX=50
+Pk=1
+[MAPA8]
+MagiaSinefecto=0
+InviSinEfecto=0
+ResuSinEfecto=0
+NoEncriptarMP=0
+BackUp= 0
+ELVMIN=0
+ELVMAX=0
+Pk=1
+Name=Puerto de                                
+Terreno=NIEVE
+Zona=CIUDAD

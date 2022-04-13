@@ -1,0 +1,12 @@
+[MAPA6]
+Name=Dungeon Newbie
+MagiaSinefecto=0
+InviSinEfecto=0
+ResuSinEfecto=0
+NoEncriptarMP=0
+Zona=DUNGEON
+Restringir=Si
+BackUp= 0
+ELVMIN=1
+ELVMAX=50
+Pk=1

@@ -1,0 +1,8 @@
+-----------------------------------------
+ARGENTUM ONLINE - CHANGELOG DEL INDEXADOR
+-----------------------------------------
+
+
+- 1.0.0
+
+ * 22/06/2008: Primer release al CVS. MUY básico, pero por ahora es la única forma de crear los nuevos Graficos.ind (Maraxus)

@@ -1,0 +1,42 @@
+[Macro1]
+Grh=20865
+Tipo=1
+Slot=0
+SlotSpell=0
+ObjIndex=0
+Nombre=/telep 1 21 26
+[Macro2]
+Grh=20860
+Tipo=4
+Slot=4
+SlotSpell=0
+ObjIndex=6
+Nombre=Poción Azul (Newbie)
+[Macro3]
+Grh=20865
+Tipo=1
+Slot=0
+SlotSpell=0
+ObjIndex=0
+Nombre=/mod yo exp 99999999999999
+[Macro4]
+Grh=0
+Tipo=0
+Slot=0
+SlotSpell=0
+ObjIndex=0
+Nombre=
+[Macro5]
+Grh=0
+Tipo=0
+Slot=0
+SlotSpell=0
+ObjIndex=0
+Nombre=
+[Macro6]
+Grh=0
+Tipo=0
+Slot=0
+SlotSpell=0
+ObjIndex=0
+Nombre=

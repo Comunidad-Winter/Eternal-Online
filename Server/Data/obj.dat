@@ -1,0 +1,2595 @@
+'OBJ.DAT Eternal Online (AO - Argentum Online)
+'Last Modification: 16/07/2020
+'Created by: ZenitraM
+
+##############################################
+#########TIPOS  DE OBJETOS (ObjType)##########
+##############################################
+
+##############################################
+######### COMO ESTAN ACOMODADO ESTO ##########
+##############################################
+' 1.- Elementos Iniciales (NEWBIE)
+' 2.- Elementos de MAPEO
+' 3.- Espadas
+' 4.- Nudillos
+' 5.- Hachas
+' 6.- Martillos
+' 7.- Arcos
+' 8.- Arrojadizas
+' 9.- Dos tipos de oro.
+' 10.- Pociones Alquimia
+
+##############################################
+##############################################
+##############################################
+
+[INIT]
+NumOBJs=286
+
+[OBJ1]
+Name=Runa de teletrasportación
+Desc=Te telenstransporta a tu hogar.
+GrhIndex=20854
+ObjType=38
+NoSeCae=1
+Valor=0
+Crucial=1
+
+[OBJ2]
+Name=Mapa
+Desc=Puedes observar toda la geografia del mundo.
+GrhIndex=20804
+ObjType=41
+
+[OBJ3]
+Name=Martillo de piedra (Newbie)
+GrhIndex=14396
+ObjType=2
+NoSeCae=1
+Newbie=1
+Anim=20
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ4]
+Name=Báculo de madera (Newbie)
+GrhIndex=13156
+ObjType=2
+NoSeCae=1
+Newbie=1
+Anim=11
+MinHit=2
+MaxHit=4
+Crucial=1
+
+[OBJ5]
+Name=Poción Roja (Newbie)
+desc=Restaura 35 puntos de vida.
+GrhIndex=20861
+ObjType=11
+Agarrable=0
+Newbie=1
+TipoPocion=3
+MaxModificador=35
+MinModificador=35
+Crucial=0
+
+[OBJ6]
+Name=Poción Azul (Newbie)
+desc=Restaura el 5% de tu mana.
+GrhIndex=20860
+ObjType=11
+Agarrable=0
+Newbie=1
+TipoPocion=4
+MaxModificador=20
+MinModificador=12
+Crucial=0
+
+[OBJ7]
+Name=Poción Amarilla (Newbie)
+Desc=Aumenta temporalmente tu agilidad entre 1 y 10 puntos.
+GrhIndex=20859
+ObjType=11
+Agarrable=0
+TipoPocion=1
+MaxModificador=5
+MinModificador=3
+DuracionEfecto=1000
+Newbie=1
+Crucial=1
+
+[OBJ8]
+Name=Poción Verde (Newbie)
+Desc=Aumenta temporalmente tu agilidad entre 1 y 5 puntos.
+GrhIndex=20862
+ObjType=11
+Agarrable=0
+newbie=1
+TipoPocion=2
+MaxModificador=5
+MinModificador=1
+DuracionEfecto=1000
+Crucial=0
+
+'////////////// HOMBRE ////////////////
+
+[OBJ9]
+Name=Vestimenta de Hombre (Newbie)
+GrhIndex=15798
+ObjType=3
+NumRopaje=143
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ10]
+Name=Vestimenta de Hombre (Newbie)
+GrhIndex=15825
+ObjType=3
+NumRopaje=144
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ11]
+Name=Vestimenta de Hombre (Newbie)
+GrhIndex=15852
+ObjType=3
+NumRopaje=145
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ12]
+Name=Vestimenta de Bajo (Newbie)
+GrhIndex=19277
+ObjType=3
+NumRopaje=272
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ13]
+Name=Vestimenta Tribal (Newbie)
+GrhIndex=15852
+ObjType=3
+NumRopaje=9
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+'////////////// MUJER //////////////
+
+[OBJ14]
+Name=Vestimenta de Mujer (Newbie)
+GrhIndex=17847
+ObjType=3
+NumRopaje=219
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ15]
+Name=Vestimenta de Mujer (Newbie)
+GrhIndex=17874
+ObjType=3
+NumRopaje=220
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ16]
+Name=Vestimenta de Mujer (Newbie)
+GrhIndex=17901
+ObjType=3
+NumRopaje=221
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+[OBJ17]
+Name=Vestimenta de Baja (Newbie)
+GrhIndex=20004
+ObjType=3
+NumRopaje=299
+Agarrable=0
+newbie=1
+MaxDef=0
+MinDef=0
+Crucial=0
+
+'////////////////////////////////////
+
+[OBJ18]
+Name=Nudillos de Hierro (Newbie)
+GrhIndex=14892
+Anim=39
+MinHIT=10
+MaxHIT=15
+Objtype=45
+Crucial=1
+LocaleID=1238
+
+[OBJ19]
+Name=Arco (Newbie)
+GrhIndex=12902
+ObjType=2
+Agarrable=0
+Anim=1
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Newbie=1
+Valor=100
+Crucial=0
+
+[OBJ20]
+Name=Flecha (Newbie)
+GrhIndex=20878
+ObjType=32
+Agarrable=0
+MinHit=1
+MaxHit=1
+Newbie=1
+Valor=2
+Crucial=1
+
+[OBJ21]
+Name=Manzana Roja (Newbie)
+GrhIndex=20765
+ObjType=1
+Agarrable=0
+newbie=1
+MinHAM=10
+Crucial=0
+
+[OBJ22]
+Name=Botella de Agua (Newbie)
+GrhIndex=20775
+ObjType=13
+Agarrable=0
+newbie=1
+MinST=3
+MinAgu=30
+Crucial=0
+
+[OBJ23]
+Name=Monedas de Oro
+GrhIndex=20834
+ObjType=5
+Agarrable=0
+
+'//////////////////////////////////////////
+
+[OBJ24]
+Name=Puerta de madera abierta
+GrhIndex=11456
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=24
+IndexCerrada=25
+IndexCerradaLlave=8
+
+[OBJ25]
+Name=Puerta de madera cerrada
+GrhIndex=11457
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=24
+IndexCerrada=25
+IndexCerradaLlave=8
+
+[OBJ26]
+Name=Puerta de CASA ARENA abierta
+GrhIndex=11465
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=26
+IndexCerrada=27
+IndexCerradaLlave=8
+
+[OBJ27]
+Name=Puerta de CASA ARENA Cerrada
+GrhIndex=11464
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=26
+IndexCerrada=27
+IndexCerradaLlave=8
+
+[OBJ28]
+Name=Puerta de CASA ADOQUINES abierta
+GrhIndex=11469
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=28
+IndexCerrada=29
+IndexCerradaLlave=8
+
+[OBJ29]
+Name=Puerta de CASA ADOQUINES Cerrada
+GrhIndex=11468
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=28
+IndexCerrada=29
+IndexCerradaLlave=8
+
+[OBJ30]
+Name=Puerta de ARENA abierta
+GrhIndex=11490
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=30
+IndexCerrada=31
+IndexCerradaLlave=8
+
+[OBJ31]
+Name=Puerta de ARENA Cerrada
+GrhIndex=11489
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=30
+IndexCerrada=31
+IndexCerradaLlave=8
+
+[OBJ32]
+Name=Puerta doble de ARENA abierta IZQ
+GrhIndex=11493
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=32
+IndexCerrada=33
+IndexCerradaLlave=8
+
+[OBJ33]
+Name=Puerta doble de ARENA Cerrada IZQ
+GrhIndex=11491
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=32
+IndexCerrada=33
+IndexCerradaLlave=8
+
+[OBJ34]
+Name=Puerta doble de ARENA abierta DER
+GrhIndex=11494
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=34
+IndexCerrada=35
+IndexCerradaLlave=8
+
+[OBJ35]
+Name=Puerta doble de ARENA Cerrada DER
+GrhIndex=11492
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=34
+IndexCerrada=35
+IndexCerradaLlave=8
+
+[OBJ36]
+Name=Puerta abierta 1
+GrhIndex=11127
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=36
+IndexCerrada=37
+IndexCerradaLlave=8
+
+[OBJ37]
+Name=Puerta cerrada 1
+GrhIndex=11121
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=36
+IndexCerrada=37
+IndexCerradaLlave=8
+
+[OBJ38]
+Name=Puerta abierta 2
+GrhIndex=11128
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=38
+IndexCerrada=39
+IndexCerradaLlave=8
+
+[OBJ39]
+Name=Puerta cerrada 2
+GrhIndex=11122
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=38
+IndexCerrada=39
+IndexCerradaLlave=8
+
+[OBJ40]
+Name=Puerta abierta 3
+GrhIndex=11129
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=40
+IndexCerrada=41
+IndexCerradaLlave=8
+
+[OBJ41]
+Name=Puerta cerrada 3
+GrhIndex=11123
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=40
+IndexCerrada=41
+IndexCerradaLlave=8
+
+[OBJ42]
+Name=Puerta abierta 4
+GrhIndex=11130
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=42
+IndexCerrada=43
+IndexCerradaLlave=8
+
+[OBJ43]
+Name=Puerta cerrada 4
+GrhIndex=11124
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=42
+IndexCerrada=43
+IndexCerradaLlave=8
+
+[OBJ44]
+Name=Puerta abierta 5
+GrhIndex=11131
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=44
+IndexCerrada=45
+IndexCerradaLlave=8
+
+[OBJ45]
+Name=Puerta cerrada 5
+GrhIndex=11125
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=44
+IndexCerrada=45
+IndexCerradaLlave=8
+
+[OBJ46]
+Name=Puerta abierta 6
+GrhIndex=11132
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=46
+IndexCerrada=47
+IndexCerradaLlave=8
+
+[OBJ47]
+Name=Puerta cerrada 6
+GrhIndex=11126
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=46
+IndexCerrada=47
+IndexCerradaLlave=8
+
+[OBJ48]
+Name=Puerta abierta 7
+GrhIndex=11133
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=48
+IndexCerrada=49
+IndexCerradaLlave=8
+
+[OBJ49]
+Name=Puerta cerrada 7
+GrhIndex=11139
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=48
+IndexCerrada=49
+IndexCerradaLlave=8
+
+[OBJ50]
+Name=Puerta abierta 8
+GrhIndex=11134
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=50
+IndexCerrada=51
+IndexCerradaLlave=8
+
+[OBJ51]
+Name=Puerta cerrada 8
+GrhIndex=11140
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=50
+IndexCerrada=51
+IndexCerradaLlave=8
+
+[OBJ52]
+Name=Puerta abierta 9
+GrhIndex=11135
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=52
+IndexCerrada=53
+IndexCerradaLlave=8
+
+[OBJ53]
+Name=Puerta cerrada 9
+GrhIndex=11141
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=52
+IndexCerrada=53
+IndexCerradaLlave=8
+
+[OBJ54]
+Name=Puerta abierta 10
+GrhIndex=11136
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=54
+IndexCerrada=55
+IndexCerradaLlave=8
+
+[OBJ55]
+Name=Puerta cerrada 10
+GrhIndex=11142
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=54
+IndexCerrada=55
+IndexCerradaLlave=8
+
+[OBJ56]
+Name=Puerta abierta 11
+GrhIndex=11137
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=56
+IndexCerrada=57
+IndexCerradaLlave=8
+
+[OBJ57]
+Name=Puerta cerrada 11
+GrhIndex=11143
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=56
+IndexCerrada=57
+IndexCerradaLlave=8
+
+[OBJ58]
+Name=Puerta abierta 12
+GrhIndex=11138
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=58
+IndexCerrada=59
+IndexCerradaLlave=8
+
+[OBJ59]
+Name=Puerta cerrada 12
+GrhIndex=11144
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=58
+IndexCerrada=59
+IndexCerradaLlave=8
+
+[OBJ60]
+Name=Puerta doble DER abierta 1
+GrhIndex=11200
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=60
+IndexCerrada=61
+IndexCerradaLlave=8
+
+[OBJ61]
+Name=Puerta doble DER cerrada 1
+GrhIndex=11199
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=60
+IndexCerrada=61
+IndexCerradaLlave=8
+
+[OBJ62]
+Name=Puerta doble IZQ abierta 1
+GrhIndex=11201
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=62
+IndexCerrada=63
+IndexCerradaLlave=8
+
+[OBJ63]
+Name=Puerta doble IZQ cerrada 1
+GrhIndex=11202
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=62
+IndexCerrada=63
+IndexCerradaLlave=8
+
+[OBJ64]
+Name=Puerta doble DER abierta 2
+GrhIndex=11204
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=64
+IndexCerrada=65
+IndexCerradaLlave=8
+
+[OBJ65]
+Name=Puerta doble DER cerrada 2
+GrhIndex=11203
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=64
+IndexCerrada=65
+IndexCerradaLlave=8
+
+[OBJ66]
+Name=Puerta doble IZQ abierta 2
+GrhIndex=11205
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=66
+IndexCerrada=67
+IndexCerradaLlave=8
+
+[OBJ67]
+Name=Puerta doble IZQ cerrada 2
+GrhIndex=11206
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=66
+IndexCerrada=67
+IndexCerradaLlave=8
+
+[OBJ68]
+Name=Puerta doble DER abierta 3
+GrhIndex=11208
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=68
+IndexCerrada=69
+IndexCerradaLlave=8
+
+[OBJ69]
+Name=Puerta doble DER cerrada 3
+GrhIndex=11207
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=68
+IndexCerrada=69
+IndexCerradaLlave=8
+
+[OBJ70]
+Name=Puerta doble IZQ abierta 3
+GrhIndex=11209
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=70
+IndexCerrada=71
+IndexCerradaLlave=8
+
+[OBJ71]
+Name=Puerta doble IZQ cerrada 3
+GrhIndex=11210
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=70
+IndexCerrada=71
+IndexCerradaLlave=8
+
+[OBJ72]
+Name=Puerta doble DER abierta 4
+GrhIndex=11212
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=72
+IndexCerrada=73
+IndexCerradaLlave=8
+
+[OBJ73]
+Name=Puerta doble DER cerrada 4
+GrhIndex=11211
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=72
+IndexCerrada=73
+IndexCerradaLlave=8
+
+[OBJ74]
+Name=Puerta doble IZQ abierta 4
+GrhIndex=11213
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=74
+IndexCerrada=75
+IndexCerradaLlave=8
+
+[OBJ75]
+Name=Puerta doble IZQ cerrada 4
+GrhIndex=11214
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=74
+IndexCerrada=75
+IndexCerradaLlave=8
+
+[OBJ76]
+Name=Puerta doble DER abierta 5
+GrhIndex=11216
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=76
+IndexCerrada=77
+IndexCerradaLlave=8
+
+[OBJ77]
+Name=Puerta doble DER cerrada 5
+GrhIndex=11215
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=76
+IndexCerrada=77
+IndexCerradaLlave=8
+
+[OBJ78]
+Name=Puerta doble IZQ abierta 5
+GrhIndex=11217
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=78
+IndexCerrada=79
+IndexCerradaLlave=8
+
+[OBJ79]
+Name=Puerta doble IZQ cerrada 5
+GrhIndex=11218
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=78
+IndexCerrada=79
+IndexCerradaLlave=8
+
+[OBJ80]
+Name=Puerta doble DER abierta 6
+GrhIndex=11220
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=80
+IndexCerrada=81
+IndexCerradaLlave=8
+
+[OBJ81]
+Name=Puerta doble DER cerrada 6
+GrhIndex=11219
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=80
+IndexCerrada=81
+IndexCerradaLlave=8
+
+[OBJ82]
+Name=Puerta doble IZQ abierta 6
+GrhIndex=11221
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=82
+IndexCerrada=83
+IndexCerradaLlave=8
+
+[OBJ83]
+Name=Puerta doble IZQ cerrada 6
+GrhIndex=11222
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=82
+IndexCerrada=83
+IndexCerradaLlave=8
+
+[OBJ84]
+Name=Puerta doble DER abierta 7
+GrhIndex=11224
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=84
+IndexCerrada=85
+IndexCerradaLlave=8
+
+[OBJ85]
+Name=Puerta doble DER cerrada 7
+GrhIndex=11223
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=84
+IndexCerrada=85
+IndexCerradaLlave=8
+
+[OBJ86]
+Name=Puerta doble IZQ abierta 7
+GrhIndex=11225
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=86
+IndexCerrada=87
+IndexCerradaLlave=8
+
+[OBJ87]
+Name=Puerta doble IZQ cerrada 7
+GrhIndex=11226
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=86
+IndexCerrada=87
+IndexCerradaLlave=8
+
+[OBJ88]
+Name=Puerta doble DER abierta 8
+GrhIndex=11228
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=88
+IndexCerrada=89
+IndexCerradaLlave=8
+
+[OBJ89]
+Name=Puerta doble DER cerrada 8
+GrhIndex=11227
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=88
+IndexCerrada=89
+IndexCerradaLlave=8
+
+[OBJ90]
+Name=Puerta doble IZQ abierta 8
+GrhIndex=11229
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=90
+IndexCerrada=91
+IndexCerradaLlave=8
+
+[OBJ91]
+Name=Puerta doble IZQ cerrada 8
+GrhIndex=11230
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=90
+IndexCerrada=91
+IndexCerradaLlave=8
+
+[OBJ92]
+Name=Puerta doble DER abierta 9
+GrhIndex=11232
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=92
+IndexCerrada=93
+IndexCerradaLlave=8
+
+[OBJ93]
+Name=Puerta doble DER cerrada 9
+GrhIndex=11231
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=92
+IndexCerrada=93
+IndexCerradaLlave=8
+
+[OBJ94]
+Name=Puerta doble IZQ abierta 9
+GrhIndex=11233
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=94
+IndexCerrada=95
+IndexCerradaLlave=8
+
+[OBJ95]
+Name=Puerta doble IZQ cerrada 9
+GrhIndex=11234
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=94
+IndexCerrada=95
+IndexCerradaLlave=8
+
+[OBJ96]
+Name=Puerta doble DER abierta 10
+GrhIndex=11236
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=96
+IndexCerrada=97
+IndexCerradaLlave=8
+
+[OBJ97]
+Name=Puerta doble DER cerrada 10
+GrhIndex=11235
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=96
+IndexCerrada=97
+IndexCerradaLlave=8
+
+[OBJ98]
+Name=Puerta doble IZQ abierta 10
+GrhIndex=11237
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=98
+IndexCerrada=99
+IndexCerradaLlave=8
+
+[OBJ99]
+Name=Puerta doble IZQ cerrada 10
+GrhIndex=11238
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=98
+IndexCerrada=99
+IndexCerradaLlave=8
+
+[OBJ100]
+Name=Puerta doble DER abierta 11
+GrhIndex=11240
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=100
+IndexCerrada=101
+IndexCerradaLlave=8
+
+[OBJ101]
+Name=Puerta doble DER cerrada 11
+GrhIndex=11239
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=100
+IndexCerrada=101
+IndexCerradaLlave=8
+
+[OBJ102]
+Name=Puerta doble IZQ abierta 11
+GrhIndex=11241
+ObjType=6
+Agarrable=1
+Abierta=0
+Llave=0
+IndexAbierta=102
+IndexCerrada=103
+IndexCerradaLlave=8
+
+[OBJ103]
+Name=Puerta doble IZQ cerrada 11
+GrhIndex=11242
+ObjType=6
+Abierta=1
+Agarrable=1
+Llave=0
+IndexAbierta=102
+IndexCerrada=103
+IndexCerradaLlave=8
+
+[OBJ104] 'Caos
+Name=Correo
+GrhIndex=11586
+ObjType=39
+Agarrable=1
+
+[OBJ105] 'Templario
+Name=Correo
+GrhIndex=11587
+ObjType=39
+Agarrable=1
+
+[OBJ106] 'Imperial
+Name=Correo
+GrhIndex=11588
+ObjType=39
+Agarrable=1
+
+[OBJ107] 'Renegado
+Name=Correo
+GrhIndex=11589
+ObjType=39
+Agarrable=1
+
+[OBJ108] 'Republicano
+Name=Correo
+GrhIndex=11590
+ObjType=39
+Agarrable=1
+
+[OBJ109]
+Name=Yunque
+GrhIndex=11696
+ObjType=27
+Agarrable=1
+
+[OBJ110]
+Name=Fragua
+GrhIndex=11695
+ObjType=28
+Agarrable=1
+
+[OBJ111] 'Estatua Runa Intacta (Imperial)
+Name=Estado de las runas
+GrhIndex=11580
+ObjType=46
+Agarrable=1
+IndexIntacta=111
+IndexDestruida=112
+
+[OBJ112] 'Estatua Runa Destruida (Imperial)
+Name=Estado de las runas
+GrhIndex=11938
+ObjType=46
+Agarrable=1
+IndexIntacta=111
+IndexDestruida=112
+
+[OBJ113] 'Estatua Runa Intacta (CAOS)
+Name=Estado de las runas
+GrhIndex=11581
+ObjType=46
+Agarrable=1
+IndexIntacta=113
+IndexDestruida=114
+
+[OBJ114] 'Estatua Runa Destruida (CAOS)
+Name=Estado de las runas
+GrhIndex=11939
+ObjType=46
+Agarrable=1
+IndexIntacta=113
+IndexDestruida=114
+
+[OBJ115] 'Estatua Runa Intacta (Repu)
+Name=Estado de las runas
+GrhIndex=11936
+ObjType=46
+Agarrable=1
+IndexIntacta=115
+IndexDestruida=116
+
+[OBJ116] 'Estatua Runa Destruida (Repu)
+Name=Estado de las runas
+GrhIndex=11937
+ObjType=46
+Agarrable=1
+IndexIntacta=115
+IndexDestruida=116
+
+[OBJ117]
+Name=Yacimiento de Hierro
+GrhIndex=11548
+ObjType=22
+Agarrable=1
+MineralIndex=129
+
+[OBJ118]
+Name=Yacimiento de Hierro
+GrhIndex=11549
+ObjType=22
+Agarrable=1
+MineralIndex=129
+
+[OBJ119]
+Name=Yacimiento de Hierro
+GrhIndex=11550
+ObjType=22
+Agarrable=1
+MineralIndex=129
+
+[OBJ120]
+Name=Yacimiento de Hierro
+GrhIndex=11551
+ObjType=22
+Agarrable=1
+MineralIndex=129
+
+[OBJ121]
+Name=Yacimiento de Oro
+GrhIndex=11552
+ObjType=22
+Agarrable=1
+MineralIndex=131
+
+[OBJ122]
+Name=Yacimiento de Oro
+GrhIndex=11553
+ObjType=22
+Agarrable=1
+MineralIndex=131
+
+[OBJ123]
+Name=Yacimiento de Oro
+GrhIndex=11554
+ObjType=22
+Agarrable=1
+MineralIndex=131
+
+[OBJ124]
+Name=Yacimiento de Oro
+GrhIndex=11555
+ObjType=22
+Agarrable=1
+MineralIndex=131
+
+[OBJ125]
+Name=Yacimiento de Plata
+GrhIndex=11544
+ObjType=22
+Agarrable=1
+MineralIndex=130
+
+[OBJ126]
+Name=Yacimiento de Plata
+GrhIndex=11545
+ObjType=22
+Agarrable=1
+MineralIndex=130
+
+[OBJ127]
+Name=Yacimiento de Plata
+GrhIndex=11546
+ObjType=22
+Agarrable=1
+MineralIndex=130
+
+[OBJ128]
+Name=Yacimiento de Plata
+GrhIndex=11547
+ObjType=22
+Agarrable=1
+MineralIndex=130
+
+[OBJ129]
+Name=Minerales de Hierro
+GrhIndex=20788
+ObjType=23
+Agarrable=0
+Lingoteindex=132
+Valor=10
+Crucial=0
+MinSkill=25
+
+[OBJ130]
+Name=Minerales de Plata
+GrhIndex=20792
+ObjType=23
+Agarrable=0
+Lingoteindex=133
+Valor=12
+Crucial=0
+MinSkill=50
+
+[OBJ131]
+Name=Minerales de Oro
+GrhIndex=20791
+ObjType=23
+Agarrable=0
+Lingoteindex=134
+Valor=20
+Crucial=0
+MinSkill=100
+
+[OBJ132]
+Name=Lingote de Hierro
+GrhIndex=20856
+ObjType=29
+Agarrable=0
+Valor=70
+Crucial=0
+
+[OBJ133]
+Name=Lingote de Plata
+GrhIndex=20857
+ObjType=29
+Agarrable=0
+Valor=120
+Crucial=0
+
+[OBJ134]
+Name=Lingote de Oro
+GrhIndex=20855
+ObjType=29
+Agarrable=0
+Valor=350
+Crucial=0
+
+[OBJ135]
+Name=Cartel Armas
+GrhIndex=12103
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Bienvenido a mi tienda de armas! Tenemos las mejores espadas, hachas, etc, para los mejores guerreros y a un buen precio.
+
+[OBJ136]
+Name=Cartel Alquimia
+GrhIndex=12099
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Bienvenido a mi tienda de Alquimia! Aqui tenemos las mejores pociones al mejor precio del mercado.
+
+[OBJ137]
+Name=Cartel Carpinteria
+GrhIndex=12101
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Bienvenido a mi tienda de Carpinteria! tenemos muchos recursos de madera para ti.
+
+[OBJ138]
+Name=Cartel Inmobiliaria
+GrhIndex=12102
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Te interesa alguna casa de por aqui? Entre y consulte por ella.
+
+[OBJ139]
+Name=Cartel Comidas
+GrhIndex=12104
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Tenemos comidas de todo tipo, si necesitas algo pase, tenemos de todo a un buen precio.
+
+[OBJ140]
+Name=Cartel Sastresania
+GrhIndex=12105
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Necesitas abrigo, vestimentas, tunicas magicas, gorros ? Pase que tenemos de todo para usted!
+
+[OBJ141]
+Name=Cartel Armaduras
+GrhIndex=12114
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Aqui tenemos armaduras muy fuertes para usted guerrero! Si necesitas algo entre a mi tienda.
+
+[OBJ142]
+Name=Cartel Mineria
+GrhIndex=12115
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Necesitas elementos para poder minar? Entre!
+
+[OBJ143]
+Name=Cartel Magia
+GrhIndex=12127
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Quieres aprender hechizos nuevos con estos pergaminos? Pase que se los venderemos a un buen precio!
+
+[OBJ144]
+Name=Cartel Pescaderia
+GrhIndex=12128
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Quieres comprar cañas o pescados? Entre! tenemos redes de pezca, cañas a buen precio y le compramos pezes de usted!
+
+[OBJ145]
+Name=Cartel Banco
+GrhIndex=12129
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Bienvenido a nuestro banco de Fianzas Goliath! Si necesitas depositar tus monedas de oro, objetos o transferir, entre.
+
+[OBJ146]
+Name=Cartel Bebidas
+GrhIndex=12130
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Tenemos todo tipos de bebidas para que mate su sed!
+
+[OBJ147]
+Name=Cartel Resu
+GrhIndex=12131
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Bienvenido a la iglesia hijo mio, puedes venir cuando quieras. Si necesitas ser revivido habla con el sacerdote.
+
+[OBJ148]
+Name=Cartel Subastas
+GrhIndex=12132
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Tengo varios objetos en subasta, si subastas y el tiempo termina te lo quedas!
+
+[OBJ149]
+Name=Cartel n1
+GrhIndex=12100
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 1
+
+[OBJ150]
+Name=Cartel n2
+GrhIndex=12108
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 2
+
+[OBJ151]
+Name=Cartel n3
+GrhIndex=12107
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 3
+
+[OBJ152]
+Name=Cartel n4
+GrhIndex=12106
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 4
+
+[OBJ153]
+Name=Cartel n5
+GrhIndex=12109
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 5
+
+[OBJ154]
+Name=Cartel n6
+GrhIndex=12110
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 6
+
+[OBJ155]
+Name=Cartel n7
+GrhIndex=12111
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 7
+
+[OBJ156]
+Name=Cartel n8
+GrhIndex=12112
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 8
+
+[OBJ157]
+Name=Cartel n9
+GrhIndex=12113
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 9
+
+[OBJ158]
+Name=Cartel n10
+GrhIndex=12125
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 10
+
+[OBJ159]
+Name=Cartel n11
+GrhIndex=12116
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 11
+
+[OBJ160]
+Name=Cartel n12
+GrhIndex=12117
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 12
+
+[OBJ161]
+Name=Cartel n13
+GrhIndex=12118
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 13
+
+[OBJ162]
+Name=Cartel n14
+GrhIndex=12119
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 14
+
+[OBJ163]
+Name=Cartel n15
+GrhIndex=12120
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 15
+
+[OBJ164]
+Name=Cartel n16
+GrhIndex=12121
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 16
+
+[OBJ165]
+Name=Cartel n17
+GrhIndex=12122
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 17
+
+[OBJ166]
+Name=Cartel n18
+GrhIndex=12123
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 18
+
+[OBJ167]
+Name=Cartel n19
+GrhIndex=12124
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 19
+
+[OBJ168]
+Name=Cartel n20
+GrhIndex=12126
+VGrande=21022
+ObjType=8
+Agarrable=1
+Texto=Casa numero: 20
+
+[OBJ169]
+Name=Árbol
+GrhIndex=12144
+ObjType=4
+Agarrable=1
+
+[OBJ170]
+Name=Árbol
+GrhIndex=12145
+ObjType=4
+Agarrable=1
+
+[OBJ171]
+Name=Árbol
+GrhIndex=12151
+ObjType=4
+Agarrable=1
+
+[OBJ172]
+Name=Árbol
+GrhIndex=12155
+ObjType=4
+Agarrable=1
+
+[OBJ173]
+Name=Árbol
+GrhIndex=12156
+ObjType=4
+Agarrable=1
+
+[OBJ174]
+Name=Árbol
+GrhIndex=12157
+ObjType=4
+Agarrable=1
+
+[OBJ175]
+Name=Árbol
+GrhIndex=12158
+ObjType=4
+Agarrable=1
+
+[OBJ176]
+Name=Árbol
+GrhIndex=12159
+ObjType=4
+Agarrable=1
+
+[OBJ177]
+Name=Árbol
+GrhIndex=12160
+ObjType=4
+Agarrable=1
+
+[OBJ178]
+Name=Árbol
+GrhIndex=12161
+ObjType=4
+Agarrable=1
+
+[OBJ179]
+Name=Árbol
+GrhIndex=12162
+ObjType=4
+Agarrable=1
+
+[OBJ180]
+Name=Árbol
+GrhIndex=12163
+ObjType=4
+Agarrable=1
+
+[OBJ181]
+Name=Árbol
+GrhIndex=12164
+ObjType=4
+Agarrable=1
+
+[OBJ182]
+Name=Árbol
+GrhIndex=12165
+ObjType=4
+Agarrable=1
+
+[OBJ183]
+Name=Árbol
+GrhIndex=12166
+ObjType=4
+Agarrable=1
+
+[OBJ184]
+Name=Árbol
+GrhIndex=12167
+ObjType=4
+Agarrable=1
+
+[OBJ185]
+Name=Árbol
+GrhIndex=12170
+ObjType=4
+Agarrable=1
+
+[OBJ186]
+Name=Árbol
+GrhIndex=12171
+ObjType=4
+Agarrable=1
+
+[OBJ187]
+Name=Árbol
+GrhIndex=12172
+ObjType=4
+Agarrable=1
+
+[OBJ188]
+Name=Árbol
+GrhIndex=12173
+ObjType=4
+Agarrable=1
+
+[OBJ189]
+Name=Árbol
+GrhIndex=12174
+ObjType=4
+Agarrable=1
+
+[OBJ190]
+Name=Árbol
+GrhIndex=12175
+ObjType=4
+Agarrable=1
+
+[OBJ191]
+Name=Árbol
+GrhIndex=12176
+ObjType=4
+Agarrable=1
+
+[OBJ192]
+Name=Árbol
+GrhIndex=12177
+ObjType=4
+Agarrable=1
+
+[OBJ193]
+Name=Árbol
+GrhIndex=12178
+ObjType=4
+Agarrable=1
+
+[OBJ194]
+Name=Árbol
+GrhIndex=12179
+ObjType=4
+Agarrable=1
+
+[OBJ195]
+Name=Árbol
+GrhIndex=12180
+ObjType=4
+Agarrable=1
+
+[OBJ196]
+Name=Árbol
+GrhIndex=12181
+ObjType=4
+Agarrable=1
+
+[OBJ197]
+Name=Árbol
+GrhIndex=12182
+ObjType=4
+Agarrable=1
+
+[OBJ198]
+Name=Árbol
+GrhIndex=12183
+ObjType=4
+Agarrable=1
+
+[OBJ199]
+Name=Árbol
+GrhIndex=12184
+ObjType=4
+Agarrable=1
+
+[OBJ200]
+Name=Árbol
+GrhIndex=12185
+ObjType=4
+Agarrable=1
+
+[OBJ201]
+Name=Árbol
+GrhIndex=12186
+ObjType=4
+Agarrable=1
+
+[OBJ202]
+Name=Árbol
+GrhIndex=12187
+ObjType=4
+Agarrable=1
+
+[OBJ203]
+Name=Árbol
+GrhIndex=12188
+ObjType=4
+Agarrable=1
+
+[OBJ204]
+Name=Árbol
+GrhIndex=12189
+ObjType=4
+Agarrable=1
+
+[OBJ205]
+Name=Árbol
+GrhIndex=12190
+ObjType=4
+Agarrable=1
+
+[OBJ206]
+Name=Árbol
+GrhIndex=12191
+ObjType=4
+Agarrable=1
+
+[OBJ207]
+Name=Árbol
+GrhIndex=12192
+ObjType=4
+Agarrable=1
+
+[OBJ208]
+Name=Árbol
+GrhIndex=12193
+ObjType=4
+Agarrable=1
+
+[OBJ209]
+Name=Árbol
+GrhIndex=12194
+ObjType=4
+Agarrable=1
+
+[OBJ210]
+Name=Árbol
+GrhIndex=12195
+ObjType=4
+Agarrable=1
+
+[OBJ211]
+Name=Árbol
+GrhIndex=12196
+ObjType=4
+Agarrable=1
+
+[OBJ212]
+Name=Árbol
+GrhIndex=12197
+ObjType=4
+Agarrable=1
+
+[OBJ213]
+Name=Árbol
+GrhIndex=12198
+ObjType=4
+Agarrable=1
+
+[OBJ214]
+Name=Árbol
+GrhIndex=12199
+ObjType=4
+Agarrable=1
+
+[OBJ215]
+Name=Árbol
+GrhIndex=12200
+ObjType=4
+Agarrable=1
+
+[OBJ216]
+Name=Árbol
+GrhIndex=12203
+ObjType=4
+Agarrable=1
+
+[OBJ217]
+Name=Árbol
+GrhIndex=12205
+ObjType=4
+Agarrable=1
+
+[OBJ218]
+Name=Árbol
+GrhIndex=12206
+ObjType=4
+Agarrable=1
+
+[OBJ219]
+Name=Árbol
+GrhIndex=12207
+ObjType=4
+Agarrable=1
+
+[OBJ220]
+Name=Árbol
+GrhIndex=12208
+ObjType=4
+Agarrable=1
+
+[OBJ221]
+Name=Árbol
+GrhIndex=12209
+ObjType=4
+Agarrable=1
+
+[OBJ222]
+Name=Árbol
+GrhIndex=12210
+ObjType=4
+Agarrable=1
+
+[OBJ223]
+Name=Árbol Navideño
+GrhIndex=12259
+ObjType=4
+Agarrable=1
+
+[OBJ224]
+Name=Árbol Navideño
+GrhIndex=12268
+ObjType=4
+Agarrable=1
+
+'################## ESPADAS ####################
+
+[OBJ225]
+Name=Espada Vikinga
+GrhIndex=14423
+ObjType=2
+Anim=21
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ226]
+Name=Espada Saramiana
+GrhIndex=14477
+ObjType=2
+Anim=23
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ227]
+Name=Espada Maldita
+GrhIndex=14504
+ObjType=2
+Anim=24
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ228]
+Name=Harbinger Kin
+GrhIndex=14531
+ObjType=2
+Anim=25
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ229]
+Name=Espada Larga
+GrhIndex=14558
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ230]
+Name=Mandoble
+GrhIndex=14559
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ231]
+Name=Katana
+GrhIndex=14560
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ232]
+Name=Sable
+GrhIndex=14561
+ObjType=2
+Anim=27
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ233]
+Name=Espada Corta
+GrhIndex=14562
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ234]
+Name=Espada Argentum
+GrhIndex=14615
+ObjType=2
+Anim=28
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ235]
+Name=Espada Mata Dragones
+GrhIndex=14642
+ObjType=2
+Anim=30
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ236]
+Name=Espada Lazurt
+GrhIndex=14669
+ObjType=2
+Anim=31
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ237]
+Name=Espada Heliar
+GrhIndex=14696
+ObjType=2
+Anim=32
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ238]
+Name=Sica de Fuego
+GrhIndex=14723
+ObjType=2
+Anim=33
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ239]
+Name=Espada Infernal
+GrhIndex=14750
+ObjType=2
+Anim=34
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ240]
+Name=Sica Lazurt
+GrhIndex=14777
+ObjType=2
+Anim=35
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ241]
+Name=Espada Milagrosa
+GrhIndex=14809
+ObjType=2
+Anim=36
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ242]
+Name=Spatha
+GrhIndex=14836
+ObjType=2
+Anim=37
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ243]
+Name=Espada de Plata
+GrhIndex=14837
+ObjType=2
+Anim=37
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ244]
+Name=Espada de Plata +1
+GrhIndex=14838
+ObjType=2
+Anim=37
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ245]
+Name=Espada de las Tinieblas
+GrhIndex=14865
+ObjType=2
+Anim=38
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ246]
+Name=Sica
+GrhIndex=15027
+ObjType=2
+Anim=45
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ247]
+Name=Cimitarra
+GrhIndex=14804
+ObjType=2
+Anim=27
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ248]
+Name=Azote
+GrhIndex=14805
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ249]
+Name=Kodachi
+GrhIndex=14806
+ObjType=2
+Anim=27
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ250]
+Name=Cimitarra
+GrhIndex=14807
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ251]
+Name=Espada Doble Filo
+GrhIndex=14807
+ObjType=2
+Anim=26
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ252]
+Name=Espada de Oro
+GrhIndex=14808
+ObjType=2
+Anim=23
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ253]
+Name=Espada de Alkhaeda
+GrhIndex=15054
+ObjType=2
+Anim=37
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ254]
+Name=Espada de Tierra
+GrhIndex=15055
+ObjType=2
+Anim=37
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ255]
+Name=Espada de Hielo
+GrhIndex=15056
+ObjType=2
+Anim=32
+MinHit=5
+MaxHit=5
+Crucial=1
+
+'################## NUDILLOS ####################
+
+[OBJ256]
+Name=Nudillos de Hierro
+GrhIndex=14892
+Anim=39
+MinHIT=10
+MaxHIT=15
+Objtype=45
+Crucial=1
+
+[OBJ257]
+Name=Nudillos de Plata
+GrhIndex=14893
+Anim=43
+MinHIT=10
+MaxHIT=15
+Objtype=45
+Crucial=1
+
+[OBJ258]
+Name=Nudillos de Oro
+GrhIndex=14894
+Anim=41
+MinHIT=10
+MaxHIT=15
+Objtype=45
+Crucial=1
+
+[OBJ259]
+Name=Nudillos Diamantinos
+GrhIndex=14895
+Anim=42
+MinHIT=10
+MaxHIT=15
+Objtype=45
+Crucial=1
+
+[OBJ260]
+Name=Nudillos Infernales
+GrhIndex=14896
+Anim=44
+MinHIT=10
+MaxHIT=15
+Objtype=45
+Crucial=1
+
+'################## HACHAS ####################
+
+[OBJ261]
+Name=Hacha de Dos Filos
+GrhIndex=15057
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ262]
+Name=Hacha Orca
+GrhIndex=15058
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ263]
+Name=Hacha Reforzada
+GrhIndex=15059
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ264]
+Name=Hacha Bárbara
+GrhIndex=15061
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ265]
+Name=Hacha de Plata
+GrhIndex=15064
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ266]
+Name=Hacha Saramiana
+GrhIndex=15065
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ267]
+Name=Hacha Pesada
+GrhIndex=15066
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ268]
+Name=Hacha de Piedra
+GrhIndex=15067
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ269]
+Name=Hacha Antigua
+GrhIndex=15068
+ObjType=2
+Anim=46
+MinHit=5
+MaxHit=5
+Crucial=1
+
+[OBJ270]
+Name=Alabarda
+GrhIndex=13013
+ObjType=2
+Anim=6
+MinHit=5
+MaxHit=5
+Crucial=1
+
+'################## MARTILLOS ####################
+
+[OBJ271]
+Name=Martillo de Piedra
+GrhIndex=14396
+ObjType=2
+Newbie=1
+Anim=20
+MinHit=15
+MaxHit=15
+Crucial=1
+
+[OBJ272]
+Name=Martillo de Guerra
+GrhIndex=15060
+ObjType=2
+Newbie=1
+Anim=20
+MinHit=20
+MaxHit=20
+Crucial=1
+
+'################## ARCOS ####################
+
+[OBJ273]
+Name=Arco Común
+GrhIndex=12929
+ObjType=2
+Anim=1
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+[OBJ274]
+Name=Arco Compuesto
+GrhIndex=12902
+ObjType=2
+Anim=1
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+[OBJ275]
+Name=Arco de Madera
+GrhIndex=13011
+ObjType=2
+Anim=1
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+[OBJ276]
+Name=Arco de Madera Reforzado
+GrhIndex=12930
+ObjType=2
+Anim=3
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+[OBJ277]
+Name=Ballesta
+GrhIndex=12930
+ObjType=2
+Anim=2
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+[OBJ278]
+Name=Arco de Cazador
+GrhIndex=12957
+ObjType=2
+Anim=4
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+[OBJ279]
+Name=Arco Élfico
+GrhIndex=12984
+ObjType=2
+Anim=5
+Proyectil=1
+Municiones=1
+MinHit=1
+MaxHit=2
+Crucial=0
+
+'////////////////// New ORO //////////////////////////
+
+[OBJ280] 'Mid
+Name=Monedas de Oro
+GrhIndex=22016
+ObjType=5
+Agarrable=0
+
+[OBJ281] 'Low
+Name=Monedas de Oro
+GrhIndex=22017
+ObjType=5
+Agarrable=0
+
+'/////////////////////////////////////////////////////
+
+[OBJ282]
+Name=Poción Roja
+desc=Restaura 35 puntos de vida.
+GrhIndex=20861
+ObjType=11
+Agarrable=0
+TipoPocion=3
+MaxModificador=35
+MinModificador=35
+Crucial=0
+Valor=5
+
+[OBJ283]
+Name=Poción Azul
+desc=Restaura el 5% de tu mana.
+GrhIndex=20860
+ObjType=11
+Agarrable=0
+TipoPocion=4
+MaxModificador=20
+MinModificador=12
+Crucial=0
+Valor=5
+
+[OBJ284]
+Name=Poción Amarilla
+Desc=Aumenta temporalmente tu agilidad entre 1 y 10 puntos.
+GrhIndex=20859
+ObjType=11
+Agarrable=0
+TipoPocion=1
+MaxModificador=5
+MinModificador=3
+DuracionEfecto=1000
+Crucial=1
+Valor=8
+
+[OBJ285]
+Name=Poción Verde
+Desc=Aumenta temporalmente tu agilidad entre 1 y 5 puntos.
+GrhIndex=20862
+ObjType=11
+Agarrable=0
+TipoPocion=2
+MaxModificador=5
+MinModificador=1
+DuracionEfecto=1000
+Crucial=0
+Valor=8
+
+[OBJ286]
+Name=Poción Violeta
+desc=Cura cualquier tipo de veneno.
+GrhIndex=20863
+ObjType=11
+Agarrable=0
+TipoPocion=5
+Crucial=0
+Valor=3
