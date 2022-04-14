@@ -14,6 +14,8 @@ This is my own version of Argentum Online, programmed in Visual Basic 6.0, it co
 ![13-04-2022 23-37-32](https://user-images.githubusercontent.com/82490615/163302923-82153911-4465-431d-9e60-9385775159c6.jpg)
 ![13-04-2022 23-37-42](https://user-images.githubusercontent.com/82490615/163302924-350815e1-8236-433c-8c2f-5f22d2be2f51.jpg)
 ![13-04-2022 23-37-48](https://user-images.githubusercontent.com/82490615/163302925-9ca71cb8-2128-45c7-af93-2f5f0a676fd4.jpg)
+![Captura de pantalla 2022-04-13 233943](https://user-images.githubusercontent.com/82490615/163303132-11d5fd41-1996-4d86-99c4-3b31847f7583.png)
+![Captura de pantalla 2022-04-13 234046](https://user-images.githubusercontent.com/82490615/163303180-77967d39-7bfc-47aa-93fc-772eeb202e34.png)
 
 
 
